@@ -15,11 +15,10 @@ for the chats. How plugins work, and every grant they can ask for, is on
    page](https://tehas.app/plugins), and check the manifest with
    `tehas plugin check <dir>`. A plugin may use any licence.
 3. **Ask for a surface** if your plugin needs something tehas does not
-   offer: a "Plugin surface request" in
-   [tehas](https://github.com/tehas-app/tehas/issues/new?template=plugin-surface.yml)
-   for what a factory offers, or in
-   [tehas-industry](https://github.com/tehas-app/tehas-industry/issues/new?template=plugin-surface.yml)
-   for what industry and Obeya offer.
+   offer: [open an issue in tehas](https://github.com/tehas-app/tehas/issues/new)
+   whose title starts with "Plugin surface:". Say what the plugin does and
+   what it needs from the factory, or from industry or Obeya. A person
+   reads every request.
 
 Do not fork tehas, and do not patch core, to get a feature a plugin can
 give.
