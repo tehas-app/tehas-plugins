@@ -1,0 +1,7 @@
+# Every pull request is asked of the person named. Whether a merge waits
+# for that review is the ruleset on mains call.
+# The vetting pipeline, when it lands, is a gate file: the plugin spec 2.0.0
+# part 9 gives it a code owner and the reviewing accounts approval.
+* @janit
+vet.yml @janit
+.github/workflows/vet.yml @janit
